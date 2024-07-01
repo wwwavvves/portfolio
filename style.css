@@ -6,6 +6,7 @@
 
 body {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 h1,
@@ -88,7 +89,42 @@ p {
 }
 
 @media (max-width: 576px) {
+  .heading-hi {
+    font-size: 32px;
+  }
+
+  .heading-name {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  .app-details {
+    text-align: center;
+  }
+
+  .app-title {
+    font-size: 32px;
+  }
+
+  .app-img {
+    display: none;
+  }
+
+  .primary-link {
+    display: block;
+    margin: 20px;
+  }
+
   .heading-about {
     font-size: 48px;
+    line-height: 1.5;
+  }
+
+  .about-img {
+    margin-bottom: 25px;
+  }
+
+  .heading-contact {
+    font-size: 32px;
   }
 }
